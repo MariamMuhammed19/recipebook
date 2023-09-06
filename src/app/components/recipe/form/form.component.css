@@ -1,0 +1,75 @@
+.btn{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 200px;
+    display: inline-block;
+    
+}
+
+.hr{
+    width: 30%;
+    margin-left: 13%;
+}
+.H{
+    display: inline-block;
+    margin-left: 25%;
+    
+}
+
+.forms{
+    width:30%;
+    box-sizing: border-box;
+    margin-left: 50%;
+    display: block;
+    /* padding: 100px; */
+    /* background-color: yellowgreen; */
+}
+.inp
+{
+    border: 2px solid #555;
+    border-radius: 5px;
+    box-shadow: 10px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 10px;
+    width: 90%;
+}
+.btn_save{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 150px;
+    display: inline-block;
+    width: 100px;
+    font-size: 150%;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+.btn_save:hover{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+.btn_cancel{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    width: 100px;
+    font-size: 150%;
+    font-weight: 600;
+    transition-duration: 1s;
+}
+.btn_cancel:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}

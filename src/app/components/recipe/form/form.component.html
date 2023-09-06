@@ -1,0 +1,21 @@
+<!-- <div *ngIf="isNotActive"> -->
+<button class="btn" (click)="onClick()"> New Recipe</button>
+<h3 class="H"  *ngIf="isNotActive">Please Select a Recipe!</h3>
+<hr class="hr">
+<!-- </div> -->
+<ng-container *ngIf="isActive">
+<form class="forms" id="form">
+    <label>Name</label>
+    <input class="inp" type="text" name="name" id="in1">
+    <br>
+    <label>ImageURL</label>
+    <input class="inp" type="text" name="img" id="in2">
+    <br>
+    <label>Description</label>
+    <textarea class="inp" name="description" id="in3"></textarea>
+    <br>
+    <!-- //function on click 3shan el card -->
+    <button class="btn_save" (click)="onsave()">Save</button>  
+    <button class="btn_cancel">Cancel</button>
+</form>
+</ng-container>
